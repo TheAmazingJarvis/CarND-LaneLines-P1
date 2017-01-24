@@ -26,7 +26,7 @@ To run this project, you will need to install the following:
 10) Draw the lines to each frame
 
 **The Results:**  
-I was able to achieve some nice results on the provided samples. Looking forward, a more nuanced approach will need to be taken to handle certain scenarios:
+I was able to achieve some nice results on the provided samples. Looking forward, a more nuanced approach will need to be taken to handle certain scenarios:  
 1. The lane detection region of interest (ROI), must be flexible. When driving up or down a steep incline, the horizon will change and no longer be a product of the proportions of the frame. This is also something to consider for tight turns and bumper to bumper traffic.   
 2. Driving at night. The color identification and selection process works very well in day light. Introducing shadows will create some noisy, but it will not provide as rigorous a test as driving in night, or in limited visibility conditions (e.g. heavy fog)
  
