@@ -1,11 +1,11 @@
 #**Finding Lane Lines on the Road** 
-<div style="text-align:center"><img src="laneLines_thirdPass.jpg" width="480" alt="Combined Image" /></div>.
+<img src="laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
 
-**The Challenge**
+**The Challenge:**  
 When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
 
-**The Toolkit:**
+**The Toolkit:**  
 To run this project, you will need to install the following:
 - Python 3
 - numpy
@@ -14,7 +14,7 @@ To run this project, you will need to install the following:
 - moviepy
 - Jupyter Notebook
 
-**The Implementation:**
+**The Implementation:**  
 1) Convert frame to grayscale
 2) Create masks for yellow and white pixels
 3) Apply a Gaussian smoothing
@@ -25,8 +25,8 @@ To run this project, you will need to install the following:
 8) Using the extrema of the lines generated, create two averaged line s 9) Create two averaged lines across frames for a smooth video playback
 10) Draw the lines to each frame
 
-**The Results:**
+**The Results:**  
 I was able to achieve some nice results on the provided samples. Looking forward, a more nuanced approach will need to be taken to handle certain scenarios:
-1. The lane detection region of interest (ROI), must be flexible. When driving up or down a steep incline, the horizon will change and no longer be a product of the proportions of the frame. This is also something to consider for tight turns and bumper to bumper traffic. 
+1. The lane detection region of interest (ROI), must be flexible. When driving up or down a steep incline, the horizon will change and no longer be a product of the proportions of the frame. This is also something to consider for tight turns and bumper to bumper traffic.   
 2. Driving at night. The color identification and selection process works very well in day light. Introducing shadows will create some noisy, but it will not provide as rigorous a test as driving in night, or in limited visibility conditions (e.g. heavy fog)
  
