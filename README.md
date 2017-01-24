@@ -1,5 +1,8 @@
 #**Finding Lane Lines on the Road** 
-<img src="laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
+
+<p align="center">
+ <img src="laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
+</p>
 
 
 **The Challenge:**  
